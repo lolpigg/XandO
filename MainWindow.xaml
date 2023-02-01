@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="MyWindow">
-        <TextBlock TextWrapping="Wrap" Text="ППощел в пизду" Margin="10,10,596,388" FontSize="24"/>
+        <TextBlock TextWrapping="Wrap" Margin="14,10,592,313" FontSize="24"><Run Language="ru-ru" Text="Крестики нолики две миланы в домике "/></TextBlock>
         <Button x:Name="x1y3" Content="" Height="100" Margin="213,81,487,0" VerticalAlignment="Top" Click="Zone_Click" IsEnabled="False"/>
         <Button x:Name="x2y3" Content="" HorizontalAlignment="Left" Height="100" Margin="334,81,0,0" VerticalAlignment="Top" Width="100"  Click="Zone_Click" IsEnabled="False"/>
         <Button x:Name="x3y3" Content="" HorizontalAlignment="Left" Height="100" Margin="455,81,0,0" VerticalAlignment="Top" Width="100"  Click="Zone_Click" IsEnabled="False"/>
