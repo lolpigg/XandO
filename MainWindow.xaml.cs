@@ -47,6 +47,10 @@ namespace WpfApp1
 
             }
             Clear(false);
+            if (IsYourSymbolX)
+            {
+                RndFreeZone();
+            }
         }
         private void Zone_Click(object sender, RoutedEventArgs e)
         {
